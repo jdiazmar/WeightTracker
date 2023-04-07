@@ -2,15 +2,12 @@
 import React from "react";
 
 //Component Imports
-import NavBar from "./Components/NavBar/NavBar";
-import Footer from "./Components/Footer/Footer";
+import HomePage from "./pages/HomePage/HomePage.js";
 
 function App() {
   return (
     <div >
-      <NavBar />
-      Hello World!
-      <Footer />
+      <HomePage />
     </div>
   );
 }
