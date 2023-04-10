@@ -2,9 +2,9 @@
 import React from "react";
 
 //Component Imports
-import NavBar from "../../Components/NavBar/NavBar";
-import Footer from "../../Components/Footer/Footer";
-import AddEntryForm from "../../Components/AddEntry/AddEntries";
+import NavBar from "../Components/NavBar/NavBar";
+import Footer from "../Components/Footer/Footer";
+import AddEntryForm from "../Components/AddEntry/AddEntries";
 
 const TrackerPage = () => {
     return ( 

@@ -2,8 +2,8 @@
 import React from "react";
 
 // Components Imports
-import NavBar from "../../Components/NavBar/NavBar";
-import Footer from "../../Components/Footer/Footer";
+import NavBar from "../Components/NavBar/NavBar";
+import Footer from "../Components/Footer/Footer";
 
 
 const HomePage = () => {
