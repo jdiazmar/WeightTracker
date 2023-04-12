@@ -25,6 +25,7 @@ const AddEntryForm = () => {
                 <label>Date</label>
                 <input type='date' value={date} placeholder='Date' onChange={(e) => setDate(e.target.value)}/> 
             </div>
+            <button type='submit'>Add</button>
         </form>
      );
 }

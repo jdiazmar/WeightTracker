@@ -10,11 +10,11 @@ const NavBarHead = () => {
     return ( 
         <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
-            <NavLink href="#home">Home</NavLink>
-            <NavLink href="#features">Features</NavLink>
-            <NavLink href="/about">Pricing</NavLink>
+          <Navbar.Brand href="/">WeightTracker</Navbar.Brand>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/tracker">Tracker</Nav.Link>
+            <Nav.Link href="/about">Pricing</Nav.Link>
           </Nav>
         </Container>
         </Navbar>
