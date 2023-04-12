@@ -2,14 +2,14 @@
 import React from "react";
 
 // Components Imports
-import NavBar from "../Components/NavBar/NavBar";
+import NavBarHeader from "../Components/NavBarHeader/NavBarHeader";
 import Footer from "../Components/Footer/Footer";
 
 
 const HomePage = () => {
     return ( 
         <div>
-            <NavBar />
+            <NavBarHeader />
                 WELCOME!
             <Footer />
         </div>

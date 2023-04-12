@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
-const NavBar = () => {
+const NavBarHead = () => {
     return ( 
-        <div>
+        <div className='container-navbar' >
             <nav class="navbar navbar-dark bg-dark" >
                 <NavLink exact='true' activeclassname='active' to='/'  >
                     Home
@@ -20,4 +20,4 @@ const NavBar = () => {
      );
 }
  
-export default NavBar;
+export default NavBarHead;
