@@ -11,7 +11,7 @@ const DisplayEntries = (props) => {
                     <th>Date</th>
                 </tr>
             </thead>
-            {/* <tbody>
+            <tbody>
                 {props.parentEntries.map((entry, index) => {
                     return (
                         <tr key={index}>
@@ -21,7 +21,7 @@ const DisplayEntries = (props) => {
                         </tr>
                     );
                 })}
-            </tbody> */}
+            </tbody>
         </table>
      );
 }
