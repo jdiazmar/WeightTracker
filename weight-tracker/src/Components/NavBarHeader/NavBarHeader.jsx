@@ -14,7 +14,7 @@ const NavBarHead = () => {
           <Navbar.Brand href="/">WeightTracker</Navbar.Brand>
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/tracker">Tracker</Nav.Link>
-            <Nav.Link href="/about">Pricing</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
           </Nav>
         </Container>
         </Navbar>
