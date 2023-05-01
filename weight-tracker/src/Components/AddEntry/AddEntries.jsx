@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-const AddEntryForm = () => {
+const AddEntryForm = (props) => {
 
     const [weight, setWeight] = useState(0);
     const [date, setDate] = useState('');
@@ -13,6 +13,7 @@ const AddEntryForm = () => {
             date: date
         };
         console.log(newEntry);
+        props.addNewEntryProperty(newEntry)
     }
 
     return ( 
