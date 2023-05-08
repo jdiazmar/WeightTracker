@@ -21,9 +21,9 @@ const TrackerPage = () => {
         <div>
             <NavBarHeader />
             <div>
+                <EntriesChartTracker parentEntries={entries} />
                 <DisplayEntries parentEntries={entries} />
                 <AddEntryForm addNewEntryProperty={addNewEntry} />
-                <EntriesChartTracker parentEntries={entries} />
             </div>
             <Footer />
         </div>
