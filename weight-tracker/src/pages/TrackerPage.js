@@ -20,9 +20,11 @@ const TrackerPage = () => {
     return ( 
         <div>
             <NavBarHeader />
-            {/* <EntriesChartTracker parentEntries={entries} /> */}
-            <DisplayEntries parentEntries={entries} />
-            <AddEntryForm addNewEntryProperty={addNewEntry} />
+            <div>
+                <DisplayEntries parentEntries={entries} />
+                <AddEntryForm addNewEntryProperty={addNewEntry} />
+                <EntriesChartTracker parentEntries={entries} />
+            </div>
             <Footer />
         </div>
      );
