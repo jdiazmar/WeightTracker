@@ -1,9 +1,10 @@
 import React from 'react';
+import Table from 'react-bootstrap/Table';
 
 
 const DisplayEntries = (props) => {
     return ( 
-        <table>
+        <Table striped bordered hover >
             <thead>
                 <tr>
                     <th>Entry Number</th>
@@ -22,7 +23,7 @@ const DisplayEntries = (props) => {
                     );
                 })}
             </tbody>
-        </table>
+        </Table>
      );
 }
  
