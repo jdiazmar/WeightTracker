@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 const AddEntryForm = (props) => {
@@ -17,17 +22,30 @@ const AddEntryForm = (props) => {
     }
 
     return ( 
-        <form onSubmit={handleSubmit}>
-            <div>
-                <label>Weight</label>
-                <input type='number' value={weight} placeholder='Weight' onChange={(e) => setWeight(parseFloat(e.target.value))}/> 
-            </div>
-            <div>
-                <label>Date</label>
-                <input type='date' value={date} placeholder='Date' onChange={(e) => setDate(e.target.value)}/> 
-            </div>
-            <button type='submit'>Add</button>
-        </form>
+        <Container fluid>
+                <Form onSubmit={handleSubmit}>
+                <Row xs='auto'>
+                    <Col >
+                        <Form.Group>
+                            <Form.Label>Weight</Form.Label>
+                            <input type='number' value={weight} placeholder='Weight' onChange={(e) => setWeight(parseFloat(e.target.value))}/> 
+                        </Form.Group>
+                    </Col>
+                    <Col >
+                        <Form.Group>
+                            <Form.Label>Date</Form.Label>
+                            <input type='date' value={date} placeholder='Date' onChange={(e) => setDate(e.target.value)}/> 
+                        </Form.Group>
+                    </Col>
+                    <Col >
+                        <Button variant='primary' type='submit' >Add</Button>
+                    </Col>
+                    </Row>
+                
+            </Form>
+            
+        
+        </Container>
      );
 }
  
