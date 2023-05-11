@@ -11,7 +11,7 @@ import EntriesChartTracker from "../Components/EntriesChartTracker/EntriesChartT
 
 const TrackerPage = () => {
 
-    const [entries, setEntries] = useState([{weight: 175, date: '11-23-2021'}])
+    const [entries, setEntries] = useState([{weight: 170, date: '11-23-2021'}])
 
     function addNewEntry(entry){
         let tempEntries = [...entries, entry];
