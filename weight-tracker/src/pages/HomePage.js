@@ -1,6 +1,8 @@
 // General Imports 
 import React from "react";
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 // Components Imports
 import NavBarHeader from "../Components/NavBarHeader/NavBarHeader";
@@ -12,17 +14,25 @@ const HomePage = () => {
     return ( 
         <div>
             <NavBarHeader />
-                <Container fluid>
-                    <h1>
-                        WELCOME
-                    </h1>
-                    <p>
-                        This a tool to help you keep track of your Fitness Goals!
-                    </p>
-                    {/* <WebPage  /> */}
+                <Container >
+                    <Row className="justify-content-md-center" >
+                        <Col>
+                            <h1>
+                            WELCOME
+                            </h1>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <p>
+                                This a tool to help you keep track of your Fitness Goals!
+                            </p>
+                        </Col>
+                    </Row>
+                    <Footer />
                 </Container>
 
-            <Footer />
+            
         </div>
      );
 }
