@@ -1,6 +1,8 @@
 // General Imports
 import React, { useState } from "react";
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 //Component Imports
 import NavBarHeader from "../Components/NavBarHeader/NavBarHeader";
@@ -22,7 +24,22 @@ const TrackerPage = () => {
         <div>
             <NavBarHeader />
             <div>
-                <Container fluid>
+                <Container>
+                <Row className="justify-content-md-center"  >
+                        <Col>
+                        </Col>
+                        <Col>
+                            <h1>
+                                TRACKER
+                            </h1>
+                        </Col>
+                        <Col>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                        </Col>
+                    </Row>
                     <EntriesChartTracker parentEntries={entries} />
                     <DisplayEntries parentEntries={entries} />
                     <AddEntryForm addNewEntryProperty={addNewEntry} />
