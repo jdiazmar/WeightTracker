@@ -17,9 +17,13 @@ const HomePage = () => {
                 <Container >
                     <Row className="justify-content-md-center" >
                         <Col>
+                        </Col>
+                        <Col>
                             <h1>
                             WELCOME
                             </h1>
+                        </Col>
+                        <Col>
                         </Col>
                     </Row>
                     <Row>
@@ -29,8 +33,8 @@ const HomePage = () => {
                             </p>
                         </Col>
                     </Row>
-                    <Footer />
                 </Container>
+                <Footer />
 
             
         </div>

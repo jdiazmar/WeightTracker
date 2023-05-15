@@ -16,9 +16,13 @@ const AboutPage = () => {
                 <Container>
                     <Row className="justify-content-md-center" >
                         <Col>
+                        </Col>
+                        <Col>
                             <h1>
                                 ABOUT PAGE
                             </h1>
+                        </Col>
+                        <Col>
                         </Col>
                     </Row>
                     <Row>
