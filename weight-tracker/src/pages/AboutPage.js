@@ -17,7 +17,7 @@ const AboutPage = () => {
                     <Row className="justify-content-md-center" >
                         <Col>
                         </Col>
-                        <Col>
+                        <Col md='auto'  >
                             <h1>
                                 ABOUT PAGE
                             </h1>
@@ -25,15 +25,15 @@ const AboutPage = () => {
                         <Col>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col>
+                    <Row className="justify-content-md-center" >
+                        <Col md='auto' >
                             <p>
                                 This a tool to help you keep track of your Fitness Goals!
                             </p>
                         </Col>
                     </Row>
-                <Footer />
                 </Container>
+                <Footer />
             
         </div>
      );

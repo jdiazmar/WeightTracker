@@ -18,7 +18,7 @@ const HomePage = () => {
                     <Row className="justify-content-md-center" >
                         <Col>
                         </Col>
-                        <Col>
+                        <Col md="auto" >
                             <h1>
                             WELCOME
                             </h1>
@@ -26,8 +26,8 @@ const HomePage = () => {
                         <Col>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col>
+                    <Row className="justify-content-md-center" >
+                        <Col md="auto" >
                             <p>
                                 This a tool to help you keep track of your Fitness Goals!
                             </p>

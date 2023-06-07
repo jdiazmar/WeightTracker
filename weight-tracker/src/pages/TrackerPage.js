@@ -28,7 +28,7 @@ const TrackerPage = () => {
                 <Row className="justify-content-md-center"  >
                         <Col>
                         </Col>
-                        <Col>
+                        <Col md='auto'  >
                             <h1>
                                 TRACKER
                             </h1>
