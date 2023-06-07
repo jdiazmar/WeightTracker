@@ -12,7 +12,7 @@ import Footer from "../Components/Footer/Footer";
 
 const HomePage = () => {
     return ( 
-        <div>
+        <div className="home-container">
             <NavBarHeader />
                 <Container >
                     <Row className="justify-content-md-center" >

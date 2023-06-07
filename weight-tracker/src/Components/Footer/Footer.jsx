@@ -6,10 +6,8 @@ import './Footer.scss';
 
 const Footer = () => {
     return ( 
-        <footer  >
-            <div className="row">
-                WeightTracker JDM 2023
-            </div>
+        <footer>
+            WeightTracker JDM 2023
          </footer>
      );
 }
